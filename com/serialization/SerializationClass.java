@@ -26,6 +26,7 @@ public class SerializationClass {
 
 		FileOutputStream file = new FileOutputStream("filenew.txt");
 		ObjectOutputStream oos = new ObjectOutputStream(file);
+		
 		oos.writeObject(emp);
 		
 //		String[] arrTemp = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");

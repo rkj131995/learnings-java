@@ -69,6 +69,7 @@ public class Employee  implements Serializable {
 	{
 
 		oos.defaultWriteObject();
+		oos.writeInt(salary);
 		
 		String enpwd = "encrypt" + getPwd();
 		

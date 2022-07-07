@@ -21,6 +21,7 @@ public class CustomLinkedList {
     public void insert(int data)
     {
     	Node newNode = new Node(data);
+    	
     	if(size == 0)
     	{
     		this.head = newNode;
